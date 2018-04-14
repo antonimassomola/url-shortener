@@ -37,6 +37,6 @@ function package_and_deploy() {
     ${HELM_PATH} upgrade -i ${RELEASE_NAME} $(find ${CHARTS_PATH} -maxdepth 1 -name "*.tgz")
 }
 
-get_kubectl
-get_helm
+#get_kubectl
+#get_helm
 package_and_deploy

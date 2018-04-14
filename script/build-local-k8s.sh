@@ -26,5 +26,5 @@ function check_or_start_cluster() {
     fi
 }
 
-get_minikube
+#get_minikube
 check_or_start_cluster

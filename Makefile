@@ -112,7 +112,7 @@ gpg-verify:
 
 
 docker-build: vendor
-	@echo "linux build... amd64"	
+	@echo "linux build... amd64"
 	@./script/docker-build.sh linux-build
 
 linux-build: vendor
